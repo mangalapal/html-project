@@ -1,0 +1,39 @@
+.maincontainer
+{
+    right: 0;
+    background-color: #74B14E;
+    width: 60%;
+    padding: 10px;
+}
+.header
+{
+    background-color: white;
+   color:#C21807;
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   border-radius: 4px;
+   padding: 8px 0px;
+   width:830px;
+}
+.table
+{
+    color: #C21807;
+    font-size: 15px;
+    font-family: Georgia;
+    font-weight: bold;
+    border-spacing: 2px;
+    width: 97%;
+    border: solid white;
+    border-radius: 2px;
+}
+td
+{
+    color: #FFFFFF;
+    background-color: #6698FF;
+    border-spacing: 5px;
+}
+fieldset{
+    margin: 15px;
+    border-radius: 5px;
+}

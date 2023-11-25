@@ -1,0 +1,30 @@
+.parent
+{
+    background-color: rgb(162,162,235);
+    color: rgb(103,4,4);
+    display: grid;
+    grid-template-columns: 200px 200px 200px200px 200px 200px;
+    grid-template-rows:100px 100px 100px 100px 100px 100px;
+    
+}
+.child1
+{
+    border: 5px solid black;
+    background-color: aqua;
+}
+.child2
+{
+    border: 5px solid black;
+    background-color: aqua;
+}
+.child3
+{
+    border: 5px solid black;
+    background-color: aqua;
+
+}
+.child4
+{
+    border: 5px solid black;
+    background-color: aqua;
+}

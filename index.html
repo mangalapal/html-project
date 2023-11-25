@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="bg-container">
+    <div class="image-container">
+      <img src="assets/travallingimage-removebg-preview.png" alt="Logo" class="image-logo">
+    </div>
+    <div class="tabel-body">
+      <table>
+        <td class="heading">ELITE TRAVEL MANAGMENT</td>
+      </table>
+      <fieldset>
+      <div class="tabel-information">
+        
+        <table class="border">
+          <tr>
+            <td id="travel-info"><a href="#">Travel-info</a></td>
+            <td id="personal-info"><a href="#">Personal-info</a></td>
+            <td id="activies-preferances"><a href="#">Activites-Preferances</a></td>
+          </tr>
+
+          <tr>
+            <td id="travel" colspan="3">Travel Information</td>
+          </tr>
+          <tr>
+            <td id="destination" colspan="1">
+              Select your travel destination :
+    
+                <select id="dropDown">
+                  <option class="options">Select...</option>
+                  <option class="options">one</option>
+                  <option class="options">Two</option>
+                </select>
+            </td>
+           
+              <td id="dateofDep">Date of departure :
+                <br><input type="date"class="input"  />
+              </td> 
+             <td id="dateofarrivel">Date of departure : <br>
+              <input type="date" class="input" />
+            </td> 
+          </tr>
+          <tr>
+            <td id="kids">
+              <p>No of Kids</p>
+            </td> 
+            <td id="teens">
+              <p>No of teens</p>
+            </td> 
+            <td id="adults">
+              <p>No of Adults</p>
+            </td> 
+          </tr>
+
+          <tr>
+            <td id="visa">
+              <p>Visa Assistance</p>
+            </td> 
+            <td id="yes">
+              <input type="radio" name="group"/>
+              <label for="yes">Yes</label>
+            </td> 
+            <td id="no">
+              <input type="radio" name="group" id="no"/>
+              <label for="no">NO</label>
+            </td> 
+          </tr>
+
+          <tr>
+            <td id="personal" colspan="3">personal Information</td>
+          </tr>
+          
+          <tr>
+           <td id="customerName" colspan="1">
+             <p>Customer Name</p>
+         </td>
+             <td id="customerInput" colspan="2">
+              <input type="text" id="customer-Input" placeholder="Enter the customer name">
+            </td>  
+         </tr>
+
+         <tr>
+          <td id="phoneNumber" colspan="1">
+            <p>Phone Number</p>
+        </td>
+            <td id="customerNumber" colspan="2">
+             <input type="text" id="customer-Input" placeholder="Enter the phone number">
+           </td>  
+        </tr>
+
+        <tr>
+          <td id="EmailId" colspan="1">
+            <p>Email ID</p>
+        </td>
+            <td id="EmailId" colspan="2">
+             <input type="text" id="customer-Input" placeholder="Enter the email id">
+           </td>  
+        </tr>
+
+        <tr>
+          <td id="preferances" colspan="3">Activities Preferances</td>
+        </tr>
+
+        <tr>
+          <td id="visa">
+            <input type="checkbox" name="" id="one">
+            <label for="one">Museums Historic Sites</label>
+          </td> 
+          <td id="yes">
+            <input type="checkbox" name="group" id="two"/>
+            <label for="two">Culture</label>
+          </td> 
+          <td id="no">
+            <input type="checkbox" name="group" id="no"/>
+            <label for="no">Beaches</label>
+          </td> 
+        </tr>
+
+        <tr>
+          <td id="visa">
+            <input type="checkbox" name="" id="one">
+            <label for="one">Shopping</label>
+          </td> 
+          <td id="yes">
+            <input type="checkbox" name="group" id="two"/>
+            <label for="two">Wildlife</label>
+          </td> 
+          <td id="no">
+            <input type="checkbox" name="group" id="no"/>
+            <label for="no">Relexing</label>
+          </td> 
+        </tr>
+        <tr>
+          <td id="offers" colspan="3"><a href="#">**Click hear to unlock exclusive offers</a></td>
+        </tr>
+      </fieldset>   
+
+        <tr>
+          <td>
+            <button type="submit" id="submit">BUILD PACKAGE</button>
+          </td>
+        </tr>
+        </table>
+
+      </div>
+      </div>
+</body>
+</html>

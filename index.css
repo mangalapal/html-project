@@ -1,0 +1,297 @@
+:root{
+    --bg-color:#6698FF;
+    --text-red-color :#C21807;
+}
+.image-container{
+   width: 40%;
+   height: 50%;
+}
+.image{
+   margin-top: 80px;
+}
+.bg-container{
+   width: 100vw;
+   background-color:rgb(243, 157, 157);
+   height: 100vh;
+}
+.table{
+   border: 2px solid white;
+}
+.tabel-body{
+   border: 2px solid white;
+   margin-left: 450px;
+   margin-right: 50px;
+   margin-top: -240px;
+   background-color:#74B14E;
+   border-radius: 5px;
+   padding: 10px;
+}
+.heading{
+   background-color: white;
+   color:var(--text-red-color);
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   border-radius: 4px;
+   padding: 8px 0px;
+   width:830px;
+}
+.table-information{
+   width: 800px;
+   height: 600px;
+   background-color: #74B14E;
+   margin-left: 420px;
+   margin-top: -500px;
+   border-radius: 5px;
+   padding: 10px;
+}
+#travel-info {
+   width: 275px;
+   background-color:var(--bg-color);
+   border-radius: 4px;
+   color: white;
+   padding: 5px;
+}
+#personal-info{
+   width: 275px;
+   background-color: var(--bg-color);
+   border-radius: 4px;
+   margin-left:253px;
+   margin-top: -24px;
+   padding: 5px;
+}
+#activies-preferances{
+   width: 275px;
+   background-color: var(--bg-color);
+   border-radius: 4px;
+   margin-left:253px;
+   margin-top: -24px;
+   padding: 5px;
+}
+#travel-info a{
+   color: white;
+   margin-left: 5px;
+}
+#personal-info a{
+   color: white;
+   margin-left: 5px;
+}
+#activies-preferances a{
+   color: white;
+   margin-left: 5px;
+}
+#travel{
+   border: 1px solid white;
+    background-color: var(--bg-color);
+    margin-top: 3px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-red-color);
+    padding: 5px;
+}
+#destination{
+   background-color: var(--bg-color);
+   border: 1px solid white;
+   border-radius: 5px;
+   padding: 5px;
+}
+#dropDown{
+   width: 256px;
+   margin-bottom: 2px;
+   font-size: 13px;
+}
+#dateofDep{
+   background-color: var(--bg-color);
+   border: 1px solid white;
+   border-radius: 5px;
+   padding: 5px;
+}
+#dateofarrivel{
+   background-color: var(--bg-color);
+   border: 1px solid white;
+   border-radius: 5px;
+   padding: 5px;
+}
+.input{
+   width: 255px;
+}
+#kids{
+   padding: 4px;
+   background-color: var(--bg-color);
+   border: 1px solid white;
+   border-radius: 4px;
+   margin-left: 5px;
+}
+#kids p{
+   background: white;
+   font-size: 16px;
+   margin-left: 3px;
+}
+#teens{
+   padding: 4px;
+   background-color: var(--bg-color);
+   border: 1px solid white;
+   border-radius: 4px;
+   margin-left: 5px;
+}
+#teens p{
+   background: white;
+   font-size: 16px;
+   margin-left: 3px;
+}
+#adults{
+   padding: 4px;
+   background-color: var(--bg-color);
+   border: 1px solid white;
+   border-radius: 4px;
+   margin-left: 5px;
+}
+#adults p{
+   background: white;
+   font-size: 16px;
+   margin-left: 3px;
+}
+#visa{
+   padding: 4px;
+   background-color: var(--bg-color);
+   border: 1px solid white;
+   border-radius: 4px;
+   margin-left: 5px;
+   color: white;
+}
+#yes{
+   padding: 4px;
+   background-color: var(--bg-color);
+   border: 1px solid white;
+   border-radius: 4px;
+   margin-left: 5px;
+   color: white;
+}
+#no{
+   padding: 4px;
+   background-color: var(--bg-color);
+   border: 1px solid white;
+   border-radius: 4px;
+   margin-left: 5px;
+   color: white;
+}
+#personal{
+   border: 1px solid white;
+    background-color: var(--bg-color);
+    margin-top: 3px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-red-color);
+    padding: 5px;
+}
+#customerName{
+   border: 1px solid white;
+    background-color: var(--bg-color);
+    margin-top: 3px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+#customerName p{
+   color: white;
+   margin-left: 5px;
+   padding: 4px;
+}
+#customerInput{
+   border: 1px solid white;
+    background-color: var(--bg-color);
+    margin-top: 3px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+#customer-Input{
+   width: 540px;
+   color: black;
+   margin-left: 5px;
+   padding-left: 4px;
+}
+#phoneNumber{
+   border: 1px solid white;
+    background-color: var(--bg-color);
+    margin-top: 3px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+#phoneNumber p{
+   color: white;
+   margin-left: 5px;
+   padding: 4px;
+}
+#customerNumber{
+   border: 1px solid white;
+    background-color: var(--bg-color);
+    margin-top: 3px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+#EmailId{
+   border: 1px solid white;
+    background-color: var(--bg-color);
+    margin-top: 3px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+#EmailId p{
+   color: white;
+   margin-left: 5px;
+   padding: 4px;
+}
+#preferances{
+   border: 1px solid white;
+    background-color: var(--bg-color);
+    margin-top: 3px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-red-color);
+    padding: 5px;
+}
+#offers{
+   border: 1px solid white;
+   background-color: var(--bg-color);
+   margin-top: 3px;
+   border-radius: 5px; 
+   padding: 5px;  
+}
+#offers a{
+   font-size: 18px;
+   font-weight: bold;
+   color: var(--text-red-color);
+}
+#submit{
+   margin-top: 20px;
+   width: 150px;
+   height: 40px;
+   color: var(--text-red-color);
+   background-color:white ;
+   font-size: 17px;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+.image-logo{
+   margin-top: 90px;
+}
+.border{
+   border: 2px solid white;
+   padding: 7px;
+   border-radius: 5px;
+   margin-top: 7px;
+}

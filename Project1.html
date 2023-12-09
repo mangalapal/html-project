@@ -1,137 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="Project1.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="Project1.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="bigcontainer">
-        <div class="img"></div>
-        <div class="maincontainer">
-            <div class="header">
-                <h3>ELITE TRAVEL MANAGEMENT</h3>
-            </div>
-            <form action="">
-                <div class="table">
-                    <table>
-                        <tr>
-                            <td><a href="#travel" id="travel_info">Travel-info</a></td>
-                            <td><a href="#personal" id="personal_info">Personal-info</a></td>
-                            <td><a href="#preferences" id="preferences_info">Activities-Preferences</a></td>
-                        </tr>
-                        <!-- Travel Information -->
-                        <tr>
-                            <td colspan="3" id="travel">Travel Information</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="destinations">Select your destination:</label><br>
-                                <select name="destination" id="destinations">
-                                    <option value="london">London</option>
-                                    <option value="canada">Canada</option>
-                                    <option value="mauritius">Mauritius</option>
-                                    <option value="switzerland">Switzerland</option>
-                                </select>
-                            </td>
-                            <td>
-                                <label for="dateofdeparture">Date of departure:</label>
-                                <input type="date" name="departure" id="dateofdeparture">
-                            </td>
-                            <td>
-                                <label for="dateofarrival">Date of arrival:</label>
-                                <input type="date" name="arrival" id="dateofarrival">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="number" name="kids" id="kids" placeholder="No of kids">
-                            </td>
-                            <td>
-                                <input type="number" name="teens" id="teens" placeholder="No of teens">
-                            </td>
-                            <td>
-                                <input type="number" name="adults" id="adults" placeholder="No of adults">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Visa Assistance</p>
-                            </td>
-                            <td>
-                                <input type="radio" name="visa" id="yes">
-                                <label for="yes">Yes</label>
-                            </td>
-                            <td>
-                                <input type="radio" name="visa" id="no">
-                                <label for="no">No</label>
-                            </td>
-                        </tr>
-                        <!-- Personal Information -->
-                        <tr>
-                            <td colspan="3" id="personal">Personal Information</td>
-                        </tr>
-                        <tr>
-                            <td><label for="cname">Customer Name</label></td>
-                            <td colspan="2">
-                                <input type="text" name="cname" id="cname" placeholder="Enter the customer name">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><label for="phone">Phone Number</label></td>
-                            <td colspan="2">
-                                <input type="tel" name="phone" pattern="[0-9] {10}" id="phone" placeholder="Enter the phone number">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><label for="email">Email ID</label></td>
-                            <td colspan="2">
-                                <input type="email" name="email" id="email" placeholder="Enter the email id">
-                            </td>
-                        </tr>
-                        <!-- Activities Preferences -->
-                        <tr>
-                            <td colspan="3" id="preferances">Activities Preferences</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="checkbox" name="charges" id="museumsAndHistoricSites">
-                                <label for="museumsAndHistoricSites">Museums & Historic Sites</label>
-                            </td>
-                            <td>
-                                <input type="checkbox" name="charges" id="culture">
-                                <label for="culture">Culture</label>
-                            </td>
-                            <td>
-                                <input type="checkbox" name="charges" id="beaches">
-                                <label for="beaches">Beaches</label>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="checkbox" name="charges" id="shopping">
-                                <label for="shopping">Shopping</label>
-                            </td>
-                            <td>
-                                <input type="checkbox" name="charges" id="wildlife">
-                                <label for="wildlife">Wildlife</label>
-                            </td>
-                            <td>
-                                <input type="checkbox" name="charges" id="relaxing">
-                                <label for="relaxing">Relaxing</label>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">
-                                <a href="#submit">**Click here to unlock exclusive offers</a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                    <input type="button" value="BUILD PACKAGE">
-            </form>
-        </div>
+      <div class="img">
+        <img src="elitelogo.png" alt="logo">
+      </div>
+      <div class="maincontainer">
+        <h3>ELITE TRAVEL MANAGEMENT</h3>
+        <form action="">
+         <fieldset>
+          <table class="table">
+            <tr>
+              <td><a href="#travel" id="travel_info">Travel-info</a></td>
+              <td><a href="#personal" id="personal_info">Personal-info</a></td>
+              <td><a href="#preferences" id="preferences_info">Activities-Preferences</a>
+              </td>
+            </tr>
+            <!-- Travel Information -->
+            <tr class="info">
+              <td colspan="3" id="travel">Travel Information</td>
+            </tr>
+            <tr>
+              <td>
+                <label for="destinations">Select your destination:</label><br />
+                <select name="destination" id="destinations">
+                  <option value="london">London</option>
+                  <option value="canada">Canada</option>
+                  <option value="mauritius">Mauritius</option>
+                  <option value="switzerland">Switzerland</option>
+                </select>
+              </td>
+              <td>
+                <label for="dateofdeparture">Date of departure:</label>
+                <input type="date" name="departure" id="dateofdeparture" />
+              </td>
+              <td>
+                <label for="dateofarrival">Date of arrival:</label>
+                <input type="date" name="arrival" id="dateofarrival" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="number"
+                  name="kids"
+                  id="kids"
+                  placeholder="No of kids"
+                />
+              </td>
+              <td>
+                <input
+                  type="number"
+                  name="teens"
+                  id="teens"
+                  placeholder="No of teens"
+                />
+              </td>
+              <td>
+                <input
+                  type="number"
+                  name="adults"
+                  id="adults"
+                  placeholder="No of adults"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Visa Assistance</p>
+              </td>
+              <td>
+                <input type="radio" name="visa" id="yes" />
+                <label for="yes">Yes</label>
+              </td>
+              <td>
+                <input type="radio" name="visa" id="no" />
+                <label for="no">No</label>
+              </td>
+            </tr>
+            <!-- Personal Information -->
+            <tr class="info">
+              <td colspan="3" id="personal">Personal Information</td>
+            </tr>
+            <tr>
+              <td><label for="cname">Customer Name</label></td>
+              <td colspan="2">
+                <input type="text" name="cname" id="cname" placeholder="Enter the customer name"/>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="phone">Phone Number</label></td>
+              <td colspan="2">
+                <input type="tel" name="phone" pattern="[0-9] {10}" id="phone" placeholder="Enter the phone number"/>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="email">Email ID</label></td>
+              <td colspan="2">
+                <input type="email" name="email" id="email" placeholder="Enter the email id"/>
+              </td>
+            </tr>
+            <!-- Activities Preferences -->
+            <tr class="info">
+              <td colspan="3" id="preferances">Activities Preferences</td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="charges" id="museumsAndHistoricSites"/>
+                <label for="museumsAndHistoricSites">Museums & Historic Sites</label>
+              </td>
+              <td>
+                <input type="checkbox" name="charges" id="culture" />
+                <label for="culture">Culture</label>
+              </td>
+              <td>
+                <input type="checkbox" name="charges" id="beaches" />
+                <label for="beaches">Beaches</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="charges" id="shopping" />
+                <label for="shopping">Shopping</label>
+              </td>
+              <td>
+                <input type="checkbox" name="charges" id="wildlife" />
+                <label for="wildlife">Wildlife</label>
+              </td>
+              <td>
+                <input type="checkbox" name="charges" id="relaxing" />
+                <label for="relaxing">Relaxing</label>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3" id="offer">
+                <a href="#submit">**Click here to unlock exclusive offers</a>
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+          <input type="button" value="BUILD PACKAGE" id="button" />
+        </form>
+      </div>
     </div>
-</body>
+  </body>
 </html>

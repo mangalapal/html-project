@@ -1,77 +1,120 @@
-.maincontainer
-{
-    right: 0;
-    background-color: #74B14E;
+.maincontainer{
     width: 60%;
+    background-color: #74B14E;
     padding: 10px;
-    height: auto;
-    margin-left: auto;
+    color: #C21807;
+    height: 630px;
+    
 }
-.header
-{
-    background-color: white;
-   color:#C21807;
-   text-align: center;
-   font-size: 20px;
-   font-weight: bold;
-   border-radius: 4px;
-   
-   width: 96%;
+.bigcontainer{
+    /* display:flex; */
+    margin-left: 20px;
+    margin-top: 50px;
+    display: flex;
+    
 }
- table
-{
-    color: #FFFFFF;
-    font-size: 15px;
-    font-family: Georgia;
-    font-weight: bold;
-    border-spacing: 2px;
-    width: 97%;
+h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: georgia;
+    border-radius: 6px;
     padding: 5px;
+    border-spacing: 2px;
+    background-color: #FFFFFF;
+    margin-top: 15px;
 }
-td
-{
-    border: 1px solid white;
-    border-radius: 5px;
+.table{
+    /* border: 2px solid white; */
+    border-spacing: 2px;
+    width: 100%;
+    height: 500px;
+    
+}
+/* .img{
+    width: 90%;
+    height: %;
+    
+} */
+td{
+    background-color: #6698ff;
     color: #FFFFFF;
-    background-color: #6698FF;
     border-spacing: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid white;
+    
+    
 }
 fieldset{
+    border: 2px solid white;
+    padding: 5px;
     border-radius: 5px;
 }
-#travel
-{
-    color: darkred;
+
+
+.info td{
+    color: #C21807;
+    font-weight: bold;
+    font-family: Georgia;
+    font-size: 15px;
 }
-#personal
-{
-    color: darkred;
-}
-#preferances
-{
-    color: darkred;  
-}
-#destinations
-{
+    
+#destinations{
     width: 100%;
 }
-#dateofdeparture
-{
-    width: 100%;
+#dateofdeparture{
+    width: 98%;
 }
-#dateofarrival
-{
-    width: 100%;
+#dateofarrival{
+    width: 98%;
 }
-#kids
-{
-    width: 100%;
+
+#cname{
+    width: 98%;
 }
-#teens
-{
-    width: 100%;
+
+#phone{
+    width: 98%;
 }
-#adults
-{
-    width: 100%;
+
+#email{
+    width: 98%;
+}
+#kids{
+    width: 98%;
+}
+#teens{
+    width: 98%;
+}
+#adults{
+    width: 98%;
+}
+p{
+    margin: 0;
+}
+#travel_info{
+    color: #FFFFFF;
+}
+#personal_info{
+    color: #FFFFFF;
+}
+#preferences_info{
+    color: #FFFFFF;
+}
+#offer a{
+    color: #FFFFFF;
+}
+#button{
+    color: #C21807;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    font-family: Georgia;
+    border-radius: 6px;
+    padding: 5px;
+    margin-top: 20px;
+}
+#button:hover{
+    background-color: #7a0d03;
+    color: #FFFFFF;
 }
